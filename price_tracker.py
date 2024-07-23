@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 import os
 import logging
 import time
+import csv
 load_dotenv()
 
 EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS')
@@ -71,8 +72,8 @@ def get_amazon_price(url,retries = 5, delay = 3):
     print("Failed to retrieve price after multiple attempts.")
     return None
 
-def track_price(url, csv_file='prices.csv'):
-    price = get_amazon_price(url)
+def track_price(url, csv_file, price):
+    # price = get_amazon_price(url)
     date = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     
     new_data = pd.DataFrame({'Date': [date], 'Price': [price]})
@@ -112,15 +113,32 @@ def send_email(subject, body, to_email):
 
 
 
-try:
-    url = 'https://www.amazon.com/EPOMAKER-Mechanical-Swappable-Five-Layer-Bluetooth/dp/B0CTYBLDH1/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.uZ8KsR3hhxbzFAySRlgxPDZydbtMNFd2fXl6Tgf3v0aG9fO_nxbEzN-OR5WCSQk-WNZGQarWU5pqMMG1gWnBPi8-MMX9lZMqiJNU0OIzBNDQIssXSkXiNnker366il4i0RxueoBYPVD0Yfvqww1CYA7FcSjP2eucjPxHljNKvjD_Kw34eifGQvEVbThyHrXKbrkduMvKdzb9exSDVXnEYq4ms2v6SlQ6EEwvX1e_h38.aW8a-PW6Ba-MiujLa0y_a5dtR9UvNQSKox2M6U6_kVU&dib_tag=se&keywords=epomaker+keyboard&qid=1721621919&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1'  # Replace with the product URL
-    
-    current_price = track_price(url)
-    print(current_price)
-    desired_price = 100  
-    if float(current_price.replace('$', '').replace(',', '')) < desired_price:
-        send_email('Price Alert', f'The price for your item is now {current_price}', EMAIL_ADDRESS)
 
-    # track_price(url)
-except Exception as e:
-    logging.error(f"Error in main script: {e}")
+def main():
+   
+    try:
+        with open('items.csv', mode='r') as file:
+            reader = csv.DictReader(file)
+            
+            for row in reader:
+                
+                name = row["name"]
+                url = row['URL']
+                desired_price = float(row['desired_price'])
+                print(f"Checking price for URL: {name} with desired price: {desired_price}")
+                
+        
+                current_price = get_amazon_price(url)
+               
+                if float(current_price.replace('$', '').replace(',', '')) < desired_price:
+                    send_email(f'Price Alert For {name}', f'The price for your item is now {current_price}', EMAIL_ADDRESS)
+                else:
+                    print("Sorry, price is still too high:(")
+                track_price(url, f"{name}_price.csv" , current_price)
+                
+    except Exception as e:
+        logging.error(f"Error in main script: {e}")
+
+if __name__ == "__main__":
+
+    main()
