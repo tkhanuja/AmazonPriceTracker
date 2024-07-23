@@ -1,0 +1,123 @@
+2024-07-21 22:08:29,603:ERROR:Error tracking price
+2024-07-21 22:08:29,756:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:09:14,894:INFO:Tracked price: None
+2024-07-21 22:09:15,118:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:10:03,869:ERROR:Error tracking price
+2024-07-21 22:10:09,127:INFO:Sent email to tanvikhanuja21@gmail.com
+2024-07-21 22:10:09,417:INFO:Tracked price: None
+2024-07-21 22:11:48,898:INFO:Tracked price: None
+2024-07-21 22:11:48,900:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:11:53,962:INFO:Tracked price: None
+2024-07-21 22:11:53,964:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:11:57,013:INFO:Tracked price: None
+2024-07-21 22:11:57,015:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:12:32,278:INFO:Tracked price: None
+2024-07-21 22:12:32,281:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:12:55,244:INFO:Tracked price: None
+2024-07-21 22:12:55,247:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:13:30,693:INFO:Tracked price: None
+2024-07-21 22:13:30,697:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:14:44,831:INFO:Tracked price: None
+2024-07-21 22:14:44,834:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:15:04,998:INFO:Tracked price: None
+2024-07-21 22:15:05,001:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:15:39,906:INFO:Tracked price: None
+2024-07-21 22:15:39,908:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:15:55,425:INFO:Tracked price: None
+2024-07-21 22:15:55,427:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:18:21,772:INFO:Tracked price: None
+2024-07-21 22:18:21,774:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:20:33,287:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:22:13,365:INFO:Tracked price: None
+2024-07-21 22:22:13,367:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:22:22,869:INFO:Tracked price: None
+2024-07-21 22:22:22,871:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:22:39,637:INFO:Tracked price: None
+2024-07-21 22:22:39,640:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:25:50,136:INFO:Tracked price: None
+2024-07-21 22:25:50,137:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:26:38,390:INFO:Tracked price: $79.99$79.99
+2024-07-21 22:26:38,391:ERROR:Error in main script: could not convert string to float: '79.9979.99'
+2024-07-21 22:26:53,211:INFO:Tracked price: None
+2024-07-21 22:26:53,213:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:28:47,209:INFO:Tracked price: None
+2024-07-21 22:28:47,212:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:28:58,551:INFO:Tracked price: None
+2024-07-21 22:28:58,554:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:29:06,645:INFO:Tracked price: None
+2024-07-21 22:29:06,648:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:29:18,320:ERROR:Error tracking price
+2024-07-21 22:29:18,324:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:22,054:INFO:Tracked price: None
+2024-07-21 22:30:22,058:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:27,951:INFO:Tracked price: $79.99$79.99
+2024-07-21 22:30:27,953:ERROR:Error in main script: could not convert string to float: '79.9979.99'
+2024-07-21 22:30:44,359:INFO:Tracked price: None
+2024-07-21 22:30:44,362:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:47,427:INFO:Tracked price: None
+2024-07-21 22:30:47,430:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:50,100:INFO:Tracked price: None
+2024-07-21 22:30:50,104:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:52,021:INFO:Tracked price: None
+2024-07-21 22:30:52,024:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:53,807:INFO:Tracked price: None
+2024-07-21 22:30:53,809:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:55,504:INFO:Tracked price: None
+2024-07-21 22:30:55,507:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:30:58,165:INFO:Tracked price: None
+2024-07-21 22:30:58,169:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:31:00,458:INFO:Tracked price: None
+2024-07-21 22:31:00,461:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:31:05,461:INFO:Tracked price: None
+2024-07-21 22:31:05,465:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:31:09,970:INFO:Tracked price: $79.99$79.99
+2024-07-21 22:31:09,971:ERROR:Error in main script: could not convert string to float: '79.9979.99'
+2024-07-21 22:31:34,184:INFO:Tracked price: None
+2024-07-21 22:31:34,187:ERROR:Error in main script: 'NoneType' object has no attribute 'replace'
+2024-07-21 22:31:38,998:INFO:Tracked price: $79.99$79.99
+2024-07-21 22:31:38,999:ERROR:Error in main script: could not convert string to float: '79.9979.99'
+2024-07-21 22:33:34,354:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:34:17,777:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:34:58,971:INFO:Tracked price: 79..99
+2024-07-21 22:34:58,973:ERROR:Error in main script: could not convert string to float: '79..99'
+2024-07-21 22:35:08,191:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:10,055:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:11,673:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:13,290:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:14,994:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:16,511:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:17,987:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:19,668:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:21,338:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:22,807:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:24,327:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:25,800:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:28,282:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:30,306:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:34,457:INFO:Tracked price: 79.99
+2024-07-21 22:35:36,263:INFO:Sent email to tanvikhanuja21@gmail.com
+2024-07-21 22:35:37,064:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 22:35:37,813:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-21 23:10:06,958:INFO:Tracked price: 79.99
+2024-07-21 23:10:08,772:INFO:Sent email to tanvikhanuja21@gmail.com
+2024-07-22 18:10:02,528:ERROR:Error in main script: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /EPOMAKER-Mechanical-Swappable-Five-Layer-Bluetooth/dp/B0CTYBLDH1/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.uZ8KsR3hhxbzFAySRlgxPDZydbtMNFd2fXl6Tgf3v0aG9fO_nxbEzN-OR5WCSQk-WNZGQarWU5pqMMG1gWnBPi8-MMX9lZMqiJNU0OIzBNDQIssXSkXiNnker366il4i0RxueoBYPVD0Yfvqww1CYA7FcSjP2eucjPxHljNKvjD_Kw34eifGQvEVbThyHrXKbrkduMvKdzb9exSDVXnEYq4ms2v6SlQ6EEwvX1e_h38.aW8a-PW6Ba-MiujLa0y_a5dtR9UvNQSKox2M6U6_kVU&dib_tag=se&keywords=epomaker+keyboard&qid=1721621919&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x12b55b460>: Failed to resolve 'www.amazon.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-07-22 19:10:07,395:INFO:Tracked price: 79.99
+2024-07-22 19:10:14,111:INFO:Sent email to tanvikhanuja21@gmail.com
+2024-07-22 20:10:04,456:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-22 20:58:03,342:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-22 20:58:13,656:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-22 20:58:16,163:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-22 20:58:18,202:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-22 20:58:20,177:ERROR:Error in main script: local variable 'price' referenced before assignment
+2024-07-22 20:58:25,028:INFO:Tracked price: 79.99
+2024-07-22 20:58:26,785:INFO:Sent email to tanvikhanuja21@gmail.com
+2024-07-22 21:03:51,670:INFO:Tracked price: 79..99$
+2024-07-22 21:03:51,672:ERROR:Error in main script: could not convert string to float: '79..99'
+2024-07-22 21:07:55,560:INFO:Tracked price: 79..99$
+2024-07-22 21:07:55,562:ERROR:Error in main script: could not convert string to float: '79..99'
+2024-07-22 21:08:18,160:INFO:Tracked price: 79.99$
+2024-07-22 21:08:19,799:INFO:Sent email to tanvikhanuja21@gmail.com
+2024-07-22 21:08:26,733:INFO:Tracked price: 79.99
+2024-07-22 21:08:28,393:INFO:Sent email to tanvikhanuja21@gmail.com
+2024-07-22 21:10:06,055:INFO:Tracked price: 79.99
+2024-07-22 21:10:07,827:INFO:Sent email to tanvikhanuja21@gmail.com
