@@ -72,11 +72,13 @@ def get_amazon_price(url,retries = 5, delay = 3):
     print("Failed to retrieve price after multiple attempts.")
     return None
 
-def track_price(url, csv_file, price):
+
+
+def track_price(url, csv_file, price,name, desired_price):
     # price = get_amazon_price(url)
     date = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     
-    new_data = pd.DataFrame({'Date': [date], 'Price': [price]})
+    new_data = pd.DataFrame({"Item": name, 'Date': [date], 'Current Price': [price]})
     
     try:
         existing_data = pd.read_csv(csv_file)
@@ -134,7 +136,7 @@ def main():
                     send_email(f'Price Alert For {name}', f'The price for your item is now {current_price}', EMAIL_ADDRESS)
                 else:
                     print("Sorry, price is still too high:(")
-                track_price(url, f"{name}_price.csv" , current_price)
+                track_price(url, "price_data.csv" , current_price, name, desired_price)
                 
     except Exception as e:
         logging.error(f"Error in main script: {e}")
