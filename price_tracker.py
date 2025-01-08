@@ -124,7 +124,7 @@ def main():
             
             for row in reader:
                 
-                name = row["name"]
+                name = row["Item"]
                 url = row['URL']
                 desired_price = float(row['desired_price'])
                 print(f"Checking price for URL: {name} with desired price: {desired_price}")
